@@ -2,7 +2,6 @@
 遍历一个目录树，查找特定扩展名的文件，不论这些文件的位置在哪里，
 将它们拷贝到一个新的文件夹中。
 '''
-
 import shutil, os
 
 def copyFile(path, newpath):
